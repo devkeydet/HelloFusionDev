@@ -7,7 +7,7 @@
     </LocalizedNames>
     <Descriptions />
     <Version>1.0.0.0</Version>
-    <Managed>2</Managed>
+    <Managed>0</Managed>
     <Publisher>
       <UniqueName>devkeydet</UniqueName>
       <LocalizedNames>
@@ -77,7 +77,9 @@
         </Address>
       </Addresses>
     </Publisher>
-    <RootComponents />
+    <RootComponents>
+      <RootComponent type="1" schemaName="dkdt_hellofusiondev" behavior="0" />
+    </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
 </ImportExportXml>
