@@ -12,6 +12,15 @@
   <CustomControls />
   <EntityDataProviders />
   <CanvasApps />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="dkdt_sharedmsnweather_19c9a">
+      <connectionreferencedisplayname>MSN Weather HelloFusionDev-19c9a</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_msnweather</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
   <Languages>
     <Language>1033</Language>
   </Languages>
