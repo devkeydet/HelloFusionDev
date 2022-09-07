@@ -3,12 +3,17 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Gallery1": 5,
+    "galleryTemplate1": 6,
     "Label1": 4,
-    "Screen1": 3
+    "NextArrow2": 13,
+    "Screen1": 3,
+    "Separator2": 14,
+    "Title2": 12
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/07/2022 14:29:14",
+  "HeaderLastSavedDateTimeUTC": "09/07/2022 14:33:16",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -16,25 +21,45 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 3,
+    "HelloFusionDevs": 4,
+    "HelloFusionDevs\\default.cds_dkdt_hellofusiondev_views": 2,
+    "HelloFusionDevs\\dkdt_hellofusiondev_statecode": 0,
+    "HelloFusionDevs\\dkdt_hellofusiondev_statuscode": 1
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "label": 0
+    "gallery": 1,
+    "icon": 2,
+    "label": 0,
+    "rectangle": 3
   },
   "PublishOrderIndices": {
     "App": 0,
+    "Gallery1": 1,
+    "galleryTemplate1": 2,
     "Label1": 0,
-    "Screen1": 0
+    "NextArrow2": 3,
+    "Screen1": 0,
+    "Separator2": 5,
+    "Title2": 4
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.024389299999999999,
-    "ControlCount": {},
+    "AnalysisLoadTime": 0.055622699999999997,
+    "ControlCount": {
+      "label": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.36528139999999998,
     "ErrorCount": 0
   },
-  "WasLocalDatabaseReferencesEmpty": true
+  "WasLocalDatabaseReferencesEmpty": false
 }

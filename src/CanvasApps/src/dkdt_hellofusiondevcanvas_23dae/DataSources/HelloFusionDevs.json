@@ -1,0 +1,96 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "dkdt_hellofusiondevs",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "dkdt_hellofusiondev",
+    "Name": "HelloFusionDevs",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "dkdt_hellofusiondev_AsyncOperations": "System Jobs",
+      "dkdt_hellofusiondev_BulkDeleteFailures": "Bulk Delete Failures",
+      "dkdt_hellofusiondev_DuplicateBaseRecord": "Duplicate Records (dkdt_hellofusiondev_DuplicateBaseRecord)",
+      "dkdt_hellofusiondev_DuplicateMatchingRecord": "Duplicate Records (dkdt_hellofusiondev_DuplicateMatchingRecord)",
+      "dkdt_hellofusiondev_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "dkdt_hellofusiondev_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "dkdt_hellofusiondev_ProcessSession": "Process Sessions",
+      "dkdt_hellofusiondev_SyncErrors": "Sync Errors",
+      "dkdt_hellofusiondevid": "HelloFusionDev",
+      "dkdt_name": "Name",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "HelloFusionDevs",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "HelloFusionDevs (Views)",
+    "Name": "_dkdt_hellofusiondev_views",
+    "RelatedEntityName": "HelloFusionDevs",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "09abaeb0-1bff-4ac0-a8af-cbfcda68d90d": "Inactive HelloFusionDevs",
+      "4c222584-52f7-4dd5-b485-ce951ba06e3e": "HelloFusionDev Associated View",
+      "4d374841-957f-4d88-867c-0d2e12a43e03": "HelloFusionDev Advanced Find View",
+      "7a20c94a-727e-4de4-8f0d-4db994d4398e": "Active HelloFusionDevs",
+      "d3429002-b2c6-4e02-9785-4aa8bace36cc": "HelloFusionDev Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (HelloFusionDevs)",
+    "Name": "dkdt_hellofusiondev_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "HelloFusionDevs"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "HelloFusionDevs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (HelloFusionDevs)",
+    "Name": "dkdt_hellofusiondev_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "HelloFusionDevs"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "HelloFusionDevs",
+    "Type": "OptionSetInfo"
+  }
+]
