@@ -76,7 +76,7 @@
       "webbarcodescanner": false
     },
     "Author": "",
-    "ContainsThirdPartyPcfControls": false,
+    "ContainsThirdPartyPcfControls": true,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
     "DocumentLayoutHeight": 768,

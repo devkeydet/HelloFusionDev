@@ -80,6 +80,7 @@
     <RootComponents>
       <RootComponent type="1" schemaName="dkdt_hellofusiondev" behavior="0" />
       <RootComponent type="29" id="{9b945575-ba2e-ed11-9db1-000d3a1a49de}" behavior="0" />
+      <RootComponent type="66" schemaName="dkdt_SampleNamespace.LinearInputControl" behavior="0" />
       <RootComponent type="300" schemaName="dkdt_hellofusiondevcanvas_23dae" behavior="0" />
     </RootComponents>
     <MissingDependencies />

@@ -79,6 +79,21 @@
     "OverridableProperties": {},
     "Version": "2.5.1"
   },
+  "LinearInputControl": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/dkdt_SampleNamespace.LinearInputControl",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "dkdt_SampleNamespace.LinearInputControl",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "LinearInputControl",
+    "Version": "1.1.0"
+  },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

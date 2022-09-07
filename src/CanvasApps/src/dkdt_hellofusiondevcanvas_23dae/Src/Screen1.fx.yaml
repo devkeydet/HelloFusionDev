@@ -53,3 +53,11 @@ Screen1 As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =3
 
+    LinearInputControl1 As LinearInputControl:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        Width: =423
+        X: =867
+        Y: =63
+        ZIndex: =2
+

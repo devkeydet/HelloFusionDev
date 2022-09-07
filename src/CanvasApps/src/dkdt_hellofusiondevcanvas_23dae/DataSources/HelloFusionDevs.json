@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "dkdt_hellofusiondev",
+    "MaxGetRowsCount": 500,
     "Name": "HelloFusionDevs",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
