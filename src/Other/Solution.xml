@@ -79,6 +79,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="dkdt_hellofusiondev" behavior="0" />
+      <RootComponent type="300" schemaName="dkdt_hellofusiondevcanvas_23dae" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
