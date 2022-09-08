@@ -83,6 +83,7 @@
       <RootComponent type="62" schemaName="dkdt_HelloFusionDevMDA" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_SampleNamespace.LinearInputControl" behavior="0" />
       <RootComponent type="80" schemaName="dkdt_HelloFusionDevMDA" behavior="0" />
+      <RootComponent type="91" id="{b7da4864-832f-ed11-9db1-000d3a1a49de}" schemaName="firstplugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
       <RootComponent type="300" schemaName="dkdt_hellofusiondevcanvas_23dae" behavior="0" />
       <RootComponent type="300" schemaName="dkdt_hellofusiondevcustompage_2a689" behavior="0" />
     </RootComponents>
