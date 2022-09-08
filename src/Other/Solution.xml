@@ -7,7 +7,7 @@
     </LocalizedNames>
     <Descriptions />
     <Version>1.0.0.0</Version>
-    <Managed>0</Managed>
+    <Managed>2</Managed>
     <Publisher>
       <UniqueName>devkeydet</UniqueName>
       <LocalizedNames>
@@ -80,9 +80,17 @@
     <RootComponents>
       <RootComponent type="1" schemaName="dkdt_hellofusiondev" behavior="0" />
       <RootComponent type="29" id="{9b945575-ba2e-ed11-9db1-000d3a1a49de}" behavior="0" />
+      <RootComponent type="62" schemaName="dkdt_HelloFusionDevMDA" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_SampleNamespace.LinearInputControl" behavior="0" />
+      <RootComponent type="80" schemaName="dkdt_HelloFusionDevMDA" behavior="0" />
       <RootComponent type="300" schemaName="dkdt_hellofusiondevcanvas_23dae" behavior="0" />
+      <RootComponent type="300" schemaName="dkdt_hellofusiondevcustompage_2a689" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="dkdt_HelloFusionDevMDA" displayName="HelloFusionDevMDA" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

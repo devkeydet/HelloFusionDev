@@ -1,0 +1,11 @@
+Screen1 As screen:
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    Label1 As Label:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =320
+        X: =40
+        Y: =40
+        ZIndex: =1
+
