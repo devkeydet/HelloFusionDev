@@ -1,8 +1,0 @@
-<pluginpackage uniquename="dkdt_firstplugins">
-  <iscustomizable>1</iscustomizable>
-  <name>dkdt_firstplugins</name>
-  <package mimetype="application/octet-stream">dkdt_firstplugins.nupkg</package>
-  <statecode>0</statecode>
-  <statuscode>1</statuscode>
-  <version>1.0.0</version>
-</pluginpackage>
