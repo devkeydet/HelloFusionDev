@@ -7,4 +7,4 @@ The following behavior exists using pac 1.19.3 or greater:
 1. When running _dotnet build_ from the directory the cdsproj file is in, pcf component(s) and plugin dll(s) will be built and placed in the correct location(s) as the solution zip is created.
 1. During _pac solution sync_ the plugin dll(s)/nupkg(s) will not be unpacked and pcf build artifacts are not unpacked using _pac solution syc_.
 
-NOTE: There buld currently fails.  Investigating why.
+NOTE: There build currently fails.  Investigating why.
