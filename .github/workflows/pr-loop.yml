@@ -14,7 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: |
+    - name: npm install for pcf
+      run: |
         cd pcf/LinearInputControl
         npm install
     - name: Setup .NET
