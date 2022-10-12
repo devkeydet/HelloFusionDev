@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: |
-        cd pcf/LindearInputControl
+        cd pcf/LinearInputControl
         npm install
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
