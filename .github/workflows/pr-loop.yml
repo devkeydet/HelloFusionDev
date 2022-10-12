@@ -1,4 +1,5 @@
-name: .NET
+name: pr-loop
+run-name: pr loop for solution using dotnet build on cdsproj
 
 on:
   push:
@@ -9,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
