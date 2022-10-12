@@ -44,7 +44,6 @@
   <ItemGroup>
     <ProjectReference Include="pcf\LinearInputControl\LinearInputControl.pcfproj" />
     <ProjectReference Include="plugins\firstplugins\firstplugins.csproj" />
-    <!-- <ProjectReference Include="plugins\firstplugins\firstplugins.csproj" /> -->
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
