@@ -2,8 +2,6 @@ name: pr-loop
 run-name: pr loop for solution using dotnet build on cdsproj
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
