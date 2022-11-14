@@ -4,10 +4,7 @@ Early spiking on showcasing the work in pac that is highlighted in this conversa
 
 NOTE: Make sure to run _npm install_ within the pcf\LinearInputControl folder before running _dotnet build_.
 
-The following behavior exists using pac 1.19.3 or greater:
+The following behavior exists using pac 1.20.1 or greater:
 
 1. When running _dotnet build_ from the directory the cdsproj file is in, pcf component(s) and plugin dll(s) will be built and placed in the correct location(s) as the solution zip is created.
 1. During _pac solution sync_ the plugin dll(s)/nupkg(s) will not be unpacked and neither will the pcf build artifacts.
-
-NOTE: There build currently fails.  Investigating why.
-https://github.com/devkeydet/HelloFusionDev/issues/1
