@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22091.212" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22101.174" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>HelloFusionDev</UniqueName>
     <LocalizedNames>
@@ -13,11 +13,13 @@
       <LocalizedNames>
         <LocalizedName description="devkeydet" languagecode="1033" />
       </LocalizedNames>
-      <Descriptions />
+      <Descriptions>
+        <Description description="devkeydet" languagecode="1033" />
+      </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
       <CustomizationPrefix>dkdt</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <CustomizationOptionValuePrefix>70391</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -80,13 +82,13 @@
     <RootComponents>
       <RootComponent type="1" schemaName="dkdt_hellofusiondev" behavior="0" />
       <RootComponent type="29" id="{9b945575-ba2e-ed11-9db1-000d3a1a49de}" behavior="0" />
+      <RootComponent type="300" schemaName="dkdt_hellofusiondevcanvas_23dae" behavior="0" />
+      <RootComponent type="300" schemaName="dkdt_hellofusiondevcustompage_2a689" behavior="0" />
       <RootComponent type="62" schemaName="dkdt_HelloFusionDevMDA" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_SampleNamespace.LinearInputControl" behavior="0" />
       <RootComponent type="80" schemaName="dkdt_HelloFusionDevMDA" behavior="0" />
       <RootComponent type="91" id="{984a8c61-ae49-ed11-bba1-000d3a31c052}" schemaName="firstplugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
       <RootComponent type="92" id="{18a8afc4-af49-ed11-bba1-000d3a31c052}" behavior="0" />
-      <RootComponent type="300" schemaName="dkdt_hellofusiondevcanvas_23dae" behavior="0" />
-      <RootComponent type="300" schemaName="dkdt_hellofusiondevcustompage_2a689" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
