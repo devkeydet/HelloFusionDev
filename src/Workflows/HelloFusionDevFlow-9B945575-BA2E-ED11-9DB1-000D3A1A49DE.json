@@ -61,10 +61,12 @@
               "type": "Raw",
               "value": "@json(decodeBase64(triggerOutputs().headers['X-MS-APIM-Tokens']))['$ConnectionKey']"
             }
-          }
+          },
+          "description": "This is a note"
         }
       }
-    }
+    },
+    "templateName": ""
   },
   "schemaVersion": "1.0.0.0"
 }

@@ -3,18 +3,18 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Gallery1": 5,
-    "galleryTemplate1": 6,
+    "Gallery1": 6,
+    "galleryTemplate1": 7,
     "Label1": 4,
-    "LinearInputControl1": 10,
-    "NextArrow2": 7,
+    "LinearInputControl1": 5,
+    "NextArrow2": 8,
     "Screen1": 3,
-    "Separator2": 9,
-    "Title2": 8
+    "Separator2": 10,
+    "Title2": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/07/2022 14:56:38",
+  "HeaderLastSavedDateTimeUTC": "11/14/2022 12:25:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -55,8 +55,9 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.13365189999999999,
+    "AnalysisLoadTime": 0.12615499999999999,
     "ControlCount": {
+      "dkdt_SampleNamespace.LinearInputControl": 1,
       "gallery": 1,
       "galleryTemplate": 1,
       "icon": 1,
@@ -64,7 +65,7 @@
       "rectangle": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.2274921000000001,
+    "DeserializationLoadTime": 1.8122201,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": false
