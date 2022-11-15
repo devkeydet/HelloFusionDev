@@ -13,11 +13,13 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
+      with:
+        cache: 'npm'
     - name: npm install for pcf
       run: |
         cd pcf/LinearInputControl
         npm install
-    - name: Setup .NET
+    - name: Setup dotnet
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.0.x
