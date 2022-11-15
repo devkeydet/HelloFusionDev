@@ -16,6 +16,12 @@ jobs:
       with:
         cache: 'npm'
         cache-dependency-path: pcf/LinearInputControl/package-lock.json
+    - uses: actions/cache@v3
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-nuget-
     - name: npm install for pcf
       run: |
         cd pcf/LinearInputControl
