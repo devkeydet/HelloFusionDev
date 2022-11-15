@@ -16,6 +16,7 @@ jobs:
       with:
         cache: 'npm'
         cache-dependency-path: pcf/LinearInputControl/package-lock.json
+        # test cache
     - name: npm install for pcf
       run: |
         cd pcf/LinearInputControl
