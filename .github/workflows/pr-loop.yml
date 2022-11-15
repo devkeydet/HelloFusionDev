@@ -12,12 +12,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    - name: setup-node
+      uses: actions/setup-node@v3
       with:
         node-version: 16
         cache: 'npm'
         cache-dependency-path: pcf/LinearInputControl/package-lock.json
-    - uses: actions/cache@v3
+    - name: cache-nuget
+      uses: actions/cache@v3
       with:
         path: ~/.nuget/packages
         key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
@@ -27,10 +29,10 @@ jobs:
       run: |
         cd pcf/LinearInputControl
         npm install
-    - name: Setup dotnet
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 7.0.x
+    # - name: Setup dotnet
+    #   uses: actions/setup-dotnet@v3
+    #   with:
+    #     dotnet-version: 7.0.x
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
