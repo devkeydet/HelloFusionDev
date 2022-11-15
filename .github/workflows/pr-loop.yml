@@ -3,39 +3,40 @@ run-name: pr loop for solution using dotnet build on cdsproj
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
-
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: setup-node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16
-        cache: 'npm'
-        cache-dependency-path: pcf/LinearInputControl/package-lock.json
-    - name: cache-nuget
-      uses: actions/cache@v3
-      with:
-        path: ~/.nuget/packages
-        key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-nuget-
-    - name: npm install for pcf
-      run: |
-        cd pcf/LinearInputControl
-        npm install
-    # - name: Setup dotnet
-    #   uses: actions/setup-dotnet@v3
-    #   with:
-    #     dotnet-version: 7.0.x
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore --configuration release
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      - uses: actions/checkout@v3
+
+      - name: setup-node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: "npm"
+          cache-dependency-path: pcf/LinearInputControl/package-lock.json
+
+      - name: cache-nuget
+        uses: actions/cache@v3
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: npm install for pcf
+        run: |
+          cd pcf/LinearInputControl
+          npm install
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore --configuration release
+
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
