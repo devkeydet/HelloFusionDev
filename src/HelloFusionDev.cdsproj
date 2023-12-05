@@ -13,7 +13,7 @@
     <!--Remove TargetFramework when this is available in 16.1-->
     <TargetFramework>net462</TargetFramework>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-    <SolutionRootPath>solution</SolutionRootPath>
+    <SolutionRootPath>src</SolutionRootPath>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -43,7 +43,7 @@
   
   <ItemGroup>
     <ProjectReference Include="pcfs\LinearInputControl\LinearInputControl.pcfproj" />
-    <ProjectReference Include="plugins\firstplugins\firstplugins.csproj" />
+    <ProjectReference Include="plugins\hellopluginassembly\hellopluginassembly.csproj" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
