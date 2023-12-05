@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: setup-node
+      - name: setup-node-and-cache
         uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -27,14 +27,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuget-
 
-      - name: Build
+      - name: build
         shell: pwsh
         run: |
           cd src
           dotnet build --configuration release
 
-      - name: Test
+      - name: test
         shell: pwsh
         run: |
           cd src 
           dotnet test --no-build --verbosity normal
+          
