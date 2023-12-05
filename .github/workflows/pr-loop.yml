@@ -28,7 +28,7 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: Restore dependencies        
-        run: dotnet restore --source /src
+        run: dotnet restore --source src
 
       - name: Build
         run: dotnet build --source /src --no-restore --configuration release
