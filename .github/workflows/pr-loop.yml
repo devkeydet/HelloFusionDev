@@ -28,6 +28,7 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: npm install for pcf
+        shell: pwsh
         run: npm install --prefix /src/pcfs/LinearInputControl
 
 
