@@ -13,7 +13,7 @@
     <!--Remove TargetFramework when this is available in 16.1-->
     <TargetFramework>net462</TargetFramework>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-    <SolutionRootPath>src</SolutionRootPath>
+    <SolutionRootPath>solution</SolutionRootPath>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -42,7 +42,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="pcf\LinearInputControl\LinearInputControl.pcfproj" />
+    <ProjectReference Include="pcfs\LinearInputControl\LinearInputControl.pcfproj" />
     <ProjectReference Include="plugins\firstplugins\firstplugins.csproj" />
   </ItemGroup>
 

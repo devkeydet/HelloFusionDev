@@ -12,12 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: setup-node
+      - name: setup-node-and-cache
         uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: "npm"
-          cache-dependency-path: pcf/LinearInputControl/package-lock.json
+          cache-dependency-path: src/pcfs/LinearInputControl/package-lock.json
 
       - name: cache-nuget
         uses: actions/cache@v3
@@ -27,16 +27,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuget-
 
-      - name: npm install for pcf
+      - name: build
+        shell: pwsh
         run: |
-          cd pcf/LinearInputControl
-          npm install
+          cd src
+          dotnet build --configuration release
 
-      - name: Restore dependencies
-        run: dotnet restore
-
-      - name: Build
-        run: dotnet build --no-restore --configuration release
-
-      - name: Test
-        run: dotnet test --no-build --verbosity normal
+      - name: test
+        shell: pwsh
+        run: |
+          cd src 
+          dotnet test --no-build --verbosity normal
+          
