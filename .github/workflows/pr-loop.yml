@@ -28,14 +28,14 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: npm install for pcf
-        run: npm install --prefix src/pcfs/LinearInputControl
+        run: npm install --prefix /src/pcfs/LinearInputControl
 
 
       - name: Restore dependencies        
-        run: dotnet restore --source src
+        run: dotnet restore --source /src
 
       - name: Build
-        run: dotnet build --source src --no-restore --configuration release
+        run: dotnet build --source /src --no-restore --configuration release
 
       - name: Test
-        run: dotnet test --source src --no-build --verbosity normal
+        run: dotnet test --source /src --no-build --verbosity normal
