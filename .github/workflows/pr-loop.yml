@@ -27,15 +27,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuget-
 
-      # - name: npm install for pcf
-      #   shell: pwsh
-      #   run: |
-      #     $currentLocation = Get-Location
-      #     $fullPath = "$currentLocation\src\pcfs\LinearInputControl"
-      #     echo $fullPath
-      #     npm install --prefix $fullPath
-
-
       - name: Restore dependencies        
         run: dotnet restore --source /src
 
