@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 16
           cache: "npm"
-          cache-dependency-path: pcf/LinearInputControl/package-lock.json
+          cache-dependency-path: src/pcfs/LinearInputControl/package-lock.json
 
       - name: cache-nuget
         uses: actions/cache@v3
@@ -29,7 +29,7 @@ jobs:
 
       - name: npm install for pcf
         run: |
-          cd pcf/LinearInputControl
+          cd src/pcfs/LinearInputControl
           npm install
 
       - name: Restore dependencies
