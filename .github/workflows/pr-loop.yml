@@ -30,8 +30,10 @@ jobs:
       - name: npm install for pcf
         shell: pwsh
         run: |
-          $location = Get-Location
-          npm install --prefix "$location\src\pcfs\LinearInputControl"
+          $currentLocation = Get-Location
+          $fullPath = "$currentLocation\src\pcfs\LinearInputControl"
+          echo $fullPath
+          npm install --prefix $fullPath
 
 
       - name: Restore dependencies        
