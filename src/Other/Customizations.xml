@@ -11,6 +11,8 @@
   <optionsets />
   <CustomControls />
   <SolutionPluginAssemblies />
+  <AppModuleSiteMaps />
+  <AppModules />
   <EntityDataProviders />
   <CanvasApps />
   <Languages>

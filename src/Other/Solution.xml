@@ -79,9 +79,20 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="300" schemaName="dkdt_hellocanvasapp_71e90" behavior="0" />
+      <RootComponent type="62" schemaName="dkdt_HelloModelDrivenApp" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_Devkeydet.HelloPCF" behavior="0" />
+      <RootComponent type="80" schemaName="dkdt_HelloModelDrivenApp" behavior="0" />
       <RootComponent type="91" id="{07ee5081-d1d6-4554-88ef-1e56ddd5831a}" schemaName="HelloPluginAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d48a0241567f1680" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="dkdt_HelloModelDrivenApp" displayName="HelloModelDrivenApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.6)" id.uniquename="AppChannel" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=dkdt_HelloModelDrivenApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="dkdt_HelloModelDrivenApp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
