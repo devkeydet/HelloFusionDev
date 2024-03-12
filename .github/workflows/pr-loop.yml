@@ -16,7 +16,9 @@ jobs:
       - name: build
         shell: pwsh
         run: |
+          cd webresource-src
           npm install --prefix webresource-src
+          cd ..
           dotnet build --configuration release
 
       - name: Upload Artifacts
