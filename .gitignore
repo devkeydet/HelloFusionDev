@@ -348,3 +348,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Ignore all files in the WebResources folder & subfolders except xml files
+src/WebResources/**
+!src/WebResources/**/
+!src/WebResources/**/*.xml
