@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
         <tab verticallayout="true" id="{0c2e56b9-baad-48e0-b345-8659606f072e}" IsUserDefined="1">
           <labels>
@@ -42,6 +42,61 @@
           </columns>
         </tab>
       </tabs>
+      <header id="{5f1b0a65-7188-495a-bce7-ce7bf5b4ecf2}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e02729ef-74dc-4108-9aa1-d6bd39092397}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f4d706fe-fdf4-4014-87cc-2779fa7d720b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f810d189-9a95-4390-8687-5319355b6b6b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4dd2ade7-d261-480e-9cb2-09144c4025a4}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{8f667a86-5e26-4616-ad26-32886864d8ab}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{178fd2de-1028-459f-a5ed-5d575213f1ae}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{36e617f8-f81a-40ac-8f0b-a5e1970370ac}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="dkdt_/HelloFusionDev/js/wr-bundle.js" libraryUniqueId="{69384571-a2c9-47f8-b8ba-5d8c6dbf0055}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="Devkeydet.HelloFusionDev.HelloFusionDevForm.onLoad" libraryName="dkdt_/HelloFusionDev/js/wr-bundle.js" handlerUniqueId="{4fa76ef6-5096-46b5-8163-2c04090669da}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

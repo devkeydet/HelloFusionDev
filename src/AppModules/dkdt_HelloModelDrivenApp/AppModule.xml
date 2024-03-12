@@ -10,7 +10,6 @@
   <ClientType>4</ClientType>
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
-    <AppModuleComponent type="1" schemaName="account" />
     <AppModuleComponent type="1" schemaName="dkdt_hellofusiondevtable" />
     <AppModuleComponent type="62" schemaName="dkdt_HelloModelDrivenApp" />
   </AppModuleComponents>
@@ -23,6 +22,10 @@
   </LocalizedNames>
   <appsettings>
     <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="appcopilotenabled">
       <iscustomizable>1</iscustomizable>
       <value>1</value>
     </appsetting>

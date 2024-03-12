@@ -80,7 +80,7 @@
     <RootComponents>
       <RootComponent type="1" schemaName="dkdt_hellofusiondevtable" behavior="0" />
       <RootComponent type="300" schemaName="dkdt_hellocanvasapp_71e90" behavior="0" />
-      <RootComponent type="61" schemaName="dkdt_/HellFusionDev/js/wr-bundle.js" behavior="0" />
+      <RootComponent type="61" schemaName="dkdt_/HelloFusionDev/js/wr-bundle.js" behavior="0" />
       <RootComponent type="62" schemaName="dkdt_HelloModelDrivenApp" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_Devkeydet.HelloPCF" behavior="0" />
       <RootComponent type="80" schemaName="dkdt_HelloModelDrivenApp" behavior="0" />
@@ -95,6 +95,10 @@
       <MissingDependency>
         <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.6)" id.uniquename="AppChannel" />
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=dkdt_HelloModelDrivenApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="dkdt_HelloModelDrivenApp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="appcopilotenabled" solution="msdyn_AppCopilotAppInfraSettings (1.0.0.7)" id.uniquename="appcopilotenabled" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=dkdt_HelloModelDrivenApp,settingdefinitionid.uniquename=appcopilotenabled" id.parentappmoduleid.uniquename="dkdt_HelloModelDrivenApp" id.settingdefinitionid.uniquename="appcopilotenabled" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
