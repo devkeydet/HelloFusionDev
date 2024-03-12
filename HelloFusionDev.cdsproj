@@ -8,7 +8,7 @@
   <Target Name="NpmRunBuildProdResources" BeforeTargets="Restore" Condition="'$(Configuration)' == 'Debug'">
     <Exec Command="npm --prefix webresource-src run build"/>
   </Target>
-  
+
   <PropertyGroup>
     <PowerAppsTargetsPath>$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\PowerApps</PowerAppsTargetsPath>
   </PropertyGroup>
@@ -33,6 +33,7 @@
   <PropertyGroup>
     <SolutionPackageType>Both</SolutionPackageType>
     <SolutionPackageEnableLocalization>false</SolutionPackageEnableLocalization>
+    <SolutionPackageMapFilePath>map.xml</SolutionPackageMapFilePath>
   </PropertyGroup>
  
 

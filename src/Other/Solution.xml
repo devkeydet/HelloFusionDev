@@ -78,13 +78,23 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
       <RootComponent type="300" schemaName="dkdt_hellocanvasapp_71e90" behavior="0" />
+      <RootComponent type="61" schemaName="dkdt_/HellFusionDev/js/ClientHooks.js" behavior="0" />
       <RootComponent type="62" schemaName="dkdt_HelloModelDrivenApp" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_Devkeydet.HelloPCF" behavior="0" />
       <RootComponent type="80" schemaName="dkdt_HelloModelDrivenApp" behavior="0" />
       <RootComponent type="91" id="{07ee5081-d1d6-4554-88ef-1e56ddd5831a}" schemaName="HelloPluginAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d48a0241567f1680" behavior="0" />
     </RootComponents>
     <MissingDependencies>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account for Interactive experience" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
         <Dependent type="80" schemaName="dkdt_HelloModelDrivenApp" displayName="HelloModelDrivenApp" />
