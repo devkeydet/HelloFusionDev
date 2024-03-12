@@ -1,0 +1,12 @@
+{
+  "components": [
+    {
+      "Capabilities": {
+        "PCFExternalServiceUsageAllowed": false
+      },
+      "ComponentName": "CustomControl",
+      "Identifier": "dkdt_Devkeydet.HelloPCF",
+      "IdentifierType": 0
+    }
+  ]
+}

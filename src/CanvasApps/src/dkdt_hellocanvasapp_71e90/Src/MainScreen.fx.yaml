@@ -1,2 +1,10 @@
 MainScreen As screen:
 
+    HelloPCF1 As HelloPCF:
+        DisplayMode: =DisplayMode.Edit
+        Height: =200
+        Width: =200
+        X: =44
+        Y: =48
+        ZIndex: =1
+

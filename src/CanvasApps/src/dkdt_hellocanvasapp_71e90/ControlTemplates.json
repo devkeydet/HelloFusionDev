@@ -23,6 +23,21 @@
     "Name": "groupContainer",
     "Version": "1.0"
   },
+  "HelloPCF": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": false,
+    "Id": "http://microsoft.com/appmagic/powercontrol/dkdt_Devkeydet.HelloPCF",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "dkdt_Devkeydet.HelloPCF",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "HelloPCF",
+    "Version": "0.0.1"
+  },
   "Host": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

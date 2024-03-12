@@ -79,6 +79,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="300" schemaName="dkdt_hellocanvasapp_71e90" behavior="0" />
+      <RootComponent type="66" schemaName="dkdt_Devkeydet.HelloPCF" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

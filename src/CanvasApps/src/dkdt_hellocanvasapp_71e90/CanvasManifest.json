@@ -99,11 +99,11 @@
       "usenonblockingonstartrule": true,
       "userdefinedfunctions": false,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
-    "ContainsThirdPartyPcfControls": false,
+    "ContainsThirdPartyPcfControls": true,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
     "DocumentLayoutHeight": 768,
@@ -117,8 +117,7 @@
     "FileID": "08b4a9d9-47c8-4821-a9db-302e7e3eaf3b",
     "Id": "08b4a9d9-47c8-4821-a9db-302e7e3eaf3b",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "HelloCanvasApp",
     "OriginatingVersion": "1.337",
     "ParserErrorCount": 0,
