@@ -7,7 +7,7 @@ Fusion development is a term often used to describe bringing together low code a
 * Low code
   * Canvas app
   * Model driven app
-  * Dataverse Table Table
+  * Dataverse Table
 * Code first
   * PCF Component written using TypeScript and React
   * Dataverse plugin written using C#
@@ -26,7 +26,7 @@ To build the Solution, you can do the following.  Since this Solution usings .NE
 
     ![image of how to clone or download](clone-or-download.png)
 
-1. After acquirig the code
+1. After acquiring the code
 
     ```
     cd HelloFusionDev
