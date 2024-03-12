@@ -80,6 +80,7 @@
     <RootComponents>
       <RootComponent type="300" schemaName="dkdt_hellocanvasapp_71e90" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_Devkeydet.HelloPCF" behavior="0" />
+      <RootComponent type="91" id="{07ee5081-d1d6-4554-88ef-1e56ddd5831a}" schemaName="HelloPluginAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d48a0241567f1680" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

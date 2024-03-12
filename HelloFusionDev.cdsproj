@@ -50,6 +50,7 @@
   
   <ItemGroup>
     <ProjectReference Include="pcf-src\HelloPCF\HelloPCF.pcfproj" />
+    <ProjectReference Include="plugin-src\HelloPluginAssembly\HelloPluginAssembly.csproj" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
