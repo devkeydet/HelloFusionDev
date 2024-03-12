@@ -11,6 +11,7 @@
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="dkdt_hellofusiondevtable" />
     <AppModuleComponent type="62" schemaName="dkdt_HelloModelDrivenApp" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
