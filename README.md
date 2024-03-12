@@ -36,6 +36,6 @@ To build the Solution, you can do the following.  Since this Solution usings .NE
     dotnet build
     ```
 
-In the `bin/debug` directory, you will have managed and unmanaged versions of the Solution.  The web resource in the Solution will not be minified and will have source maps.  If you run `dotnet build -c release`, the Solutions will have optmized web resources.
+In the `bin/debug` folder, you will have managed and unmanaged versions of the Solution.  The web resource in the Solution will not be minified and will have source maps.  If you run `dotnet build -c release`, the Solutions will have optmized web resources in the `bin/release` folder.
 
 Thanks to [@scottdurow](https://twitter.com/scottdurow) for his awesome (free) course [Building JavaScript Web Resources using TypeScript](https://learn.develop1.net/courses/building-javascript-web-resources-using-typescript/dashboard) for the TypeScript inspiration.
