@@ -80,7 +80,6 @@
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="1" />
       <RootComponent type="300" schemaName="dkdt_hellocanvasapp_71e90" behavior="0" />
-      <RootComponent type="61" schemaName="dkdt_/HellFusionDev/js/ClientHooks.js" behavior="0" />
       <RootComponent type="62" schemaName="dkdt_HelloModelDrivenApp" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_Devkeydet.HelloPCF" behavior="0" />
       <RootComponent type="80" schemaName="dkdt_HelloModelDrivenApp" behavior="0" />

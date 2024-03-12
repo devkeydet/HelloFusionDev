@@ -34,9 +34,6 @@
           <InternalHandlers>
             <Handler functionName="AppCommon.Account.Instance.form_onload" libraryName="AppCommon/Account/Account_main_system_library.js" handlerUniqueId="2bccd2b4-2e7e-485e-877e-0b0f26c20b83" enabled="true" />
           </InternalHandlers>
-          <Handlers solutionaction="Added">
-            <Handler functionName="Devkeydet.HelloFusionDev.AccountForm.onload" libraryName="dkdt_/HellFusionDev/js/ClientHooks.js" handlerUniqueId="{28cd610f-18d8-444c-b700-6207953cdddb}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
-          </Handlers>
         </event>
       </events>
       <footer id="{03aa68e9-d11c-48e7-a19a-49304f829c49}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
@@ -60,9 +57,6 @@
           </row>
         </rows>
       </footer>
-      <formLibraries solutionaction="Added">
-        <Library name="dkdt_/HellFusionDev/js/ClientHooks.js" libraryUniqueId="{e114bfe8-aca9-4b7c-8398-4fe3d2141c91}" />
-      </formLibraries>
     </form>
     <LocalizedNames>
       <LocalizedName description="Account for Interactive experience" languagecode="1033" />
