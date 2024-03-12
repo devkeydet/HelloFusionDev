@@ -18,7 +18,7 @@ module.exports = {
         extensions: [".tsx", ".ts", ".js"],
     },
     output: {
-        filename: "ClientHooks.js",
+        filename: "wr-bundle.js",
         library: ["Devkeydet", "HelloFusionDev"],
         libraryTarget: "var"
     },
