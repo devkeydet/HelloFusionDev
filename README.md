@@ -15,9 +15,9 @@ Fusion development is a term often used to describe bringing together low code a
 
 ## Getting started
 
-To understand how this sample was created, you can watch this end to end walkthrough.
+To understand how this sample was created, you can watch this walkthrough.
 
-[TODO: INSERT VIDEO ONCE RECORDED]
+[![Video Introduction](https://img.youtube.com/vi/oupkW92xXns/0.jpg)](https://www.youtube.com/watch?v=oupkW92xXns)
 
 To build the Solution, you can do the following.  Since this Solution usings .NET Framework 4.6.2 for the Dataverse plugin assembly, this works on Windows only.
 
